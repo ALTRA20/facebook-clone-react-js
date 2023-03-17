@@ -1,0 +1,73 @@
+.friendRequestCard{
+	width: 350px;
+	position: fixed;
+	z-index: 3;
+	background-color: white;
+	padding: 13px;
+	right: 0;
+	margin-top: 25PX;
+	margin-right: 20PX;
+	box-shadow: -5px 7px 12px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -5px 7px 12px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 12px 1px rgba(0,0,0,0.75);
+border-radius: 5px;
+}
+.friendRequestCardTop{
+	position: relative;
+}
+.friendRequestCardList{
+	max-height: 400px;
+	overflow-y: scroll;
+	list-style: none;
+	padding: 0;
+}
+.friendRequestCardListItem{
+	display: flex;
+	margin: 10px 0;
+	align-items: center;
+}
+.friendRequestCardListImg{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 7px;
+}
+.friendRequestCardListItemRight{
+	padding-top: 7px;
+}
+.friendRequestCardListItemName{
+	font-size: 18PX;
+}
+.friendRequestCardListItemOption{
+	margin-top: 7px;
+}
+.friendRequestCardListItemBtnAccept{
+	background-color: #1877f2;
+	padding: 5px 10px;
+	border: 0;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	width: 80px;
+	height: 36px;
+}
+.friendRequestCardListItemBtnDecline{
+	border: solid 1px black;
+	background-color: transparent;
+	padding: 4px 9px;
+	border-radius: 5px;
+	margin-right: 8px;
+	cursor: pointer;
+	width: 80px;
+	height: 36px;
+}
+.friendRequestCardReadMore{
+	display: block;
+	width: inherit;
+	background-color: #f1f1f1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 13px;
+}

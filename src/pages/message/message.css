@@ -1,0 +1,33 @@
+.messageContainer{
+	display: flex;
+}
+.messageContainer > .sidebar{
+  flex: 1.7!important;
+}
+.message{
+	flex: 5.5;
+	height: 100%;
+/*	background-color: red;*/
+}
+.messageWrapper{
+	width: inherit;
+}
+.messageTop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.messageTopLeft{
+	display: flex;
+	align-items: center;
+}
+.messageTopLeft > .leftIcon{
+	margin: 0px 15px;
+}
+.messageTopTitle{
+	display: block;
+}
+.messageTopRight{
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,89 @@
+.notificationCard{
+	width: 400px;
+	position: fixed;
+	z-index: 3;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 60px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+}
+.notificationCardTop{
+	margin-bottom: 10px;
+	position: relative;
+}
+.notificationCardTitle{
+	font-size: 25px;
+	margin-bottom: 8px;
+	margin-left: 0;
+	margin-top: 0;
+}
+.btnClose{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 50%;
+	padding: 6px;
+	cursor: pointer;
+}
+.notificationCardClose:hover{
+	background-color: #f1f1f1;
+}
+.btn{
+	padding: 5px 15px;
+	border-radius: 10px;
+}
+.active{
+	background-color: skyblue;
+}
+.notificationCardBtnAll{
+	margin: 5px 10px;
+	margin-left: 0;
+	font-size: 18px;
+}
+.notificationCardBtnUnread{
+	margin: 5px 10px;
+	margin-left: 0;
+	font-size: 19px;
+}
+.notificationCardList{
+	padding: 0;
+	margin-top: 15px;
+}
+.notificationCardListTop{
+	display: flex;
+	justify-content: space-between;
+}
+.notificationCardListSeeAll{
+	color: skyblue;
+	cursor: pointer;
+}
+.notificationCardListItem{
+	padding: 0;
+	display: flex;
+	margin: 5px;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+.notificationCardImg{
+	width: 50px!important;
+	height: 50px;
+	margin-right: 5px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.notificationCardMain{
+	width: 350px;
+	margin-left: 5px;
+}
+.notificationCardMain > *{
+	display: block;
+}
+.notificationCardName{
+
+}
+.notificationCardDesc{
+	color: #191919;
+	font-size: 13px;
+}

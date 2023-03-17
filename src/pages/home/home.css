@@ -1,0 +1,23 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  div .feed{
+    width: 100%!important;
+  }
+  .rightbar{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+  div .feed{
+    width: 70%;
+  }
+  .rightbar{
+    width: 30%!important;
+  }
+}

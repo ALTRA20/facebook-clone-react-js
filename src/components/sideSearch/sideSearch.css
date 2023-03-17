@@ -1,0 +1,19 @@
+.sideSearch{
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	z-index: 3;
+	background-color: white;
+	border: solid 2px black;
+	padding: 15px;
+}
+.sideSearchWrapper{
+	height: inherit;
+}
+.sideSearchResult{
+	height: 92%!important;
+	padding: 0;
+	padding-left: 5px;
+	list-style: none;
+	overflow-y: scroll;
+}

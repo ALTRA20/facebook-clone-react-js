@@ -1,0 +1,93 @@
+.FriendRequestContainer{
+    display: flex;
+    width: 100%;
+}
+.FriendRequestContainer > .sidebar{
+  flex: 1.7!important;
+}
+.friendRequest{
+  flex: 5.5;
+  padding: 25px;
+}
+.friendRequestTop{
+/*  position: relative;*/
+}
+.friendRequestList{
+  display: flex;
+    flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.friendRequestListItem{
+  flex-basis: 46%; /* set lebar kolom */
+  box-sizing: border-box; /* termasuk padding dan border dalam hitungan lebar */
+  margin: 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 25px 15px;
+}
+.friendRequestListItemWrapper{
+  display: flex;
+  align-items: center;
+}
+.friendRequestListItemName{
+  font-size: 24px!important;
+}
+.friendRequestListImg{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.friendRequestListItemRight{
+  padding-top: 7px;
+}
+.friendRequestListItemName{
+  font-size: 18PX;
+}
+.friendRequestListItemOption{
+  margin-top: 7px;
+}
+.friendRequestListItemBtnAccept{
+  background-color: #1877f2;
+  padding: 5px 10px;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 90px;
+  height: 43px;
+}
+.friendRequestListItemBtnDecline{
+  border: solid 1px black;
+  background-color: transparent;
+  padding: 4px 9px;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  width: 88px;
+  height: 41px;
+}
+@media only screen and (max-width: 768px) {
+  div .friendRequest{
+    width: 100%!important;
+  }
+  .rightbar{
+    display: none;
+  }
+  .friendRequestListItem{
+    flex-basis: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+  div .friendRequest{
+    width: 70%;
+  }
+  .rightbar{
+    width: 30%!important;
+  }
+}
